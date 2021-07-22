@@ -1,13 +1,11 @@
 
 # Overview
 
-I wanted to teach myself how to deploy a machine learning model on a web app. 
+I taught myself how to deploy a machine learning model on a web app. 
 
+Started a test server on my local machine by:
 - python manage.py runserver
 - Go to:  http://127.0.0.1:8000/
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
 
 [Software Demo Video](https://youtu.be/JZyoC7ZiUwU)
 
@@ -33,8 +31,10 @@ I wanted to teach myself how to deploy a machine learning model on a web app.
 -   Django framework
 -   Some HTML
 -   Vertual Environment
-  *(first navigate to the folder you want to work in)
-   * py -m venv env
+
+**Vertual Environment Setup**
+  * (first navigate to the folder you want to work in)
+  * py -m venv env
   * .\env\Scripts\activate
   * python -m pip install Django
   * py -m django --version

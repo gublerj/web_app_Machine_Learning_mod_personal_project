@@ -7,7 +7,7 @@ Started a test server on my local machine by:
 - python manage.py runserver
 - Go to:  http://127.0.0.1:8000/
 
-[Software Demo Video](https://youtu.be/JZyoC7ZiUwU)
+# [Software Demo Video](https://youtu.be/JZyoC7ZiUwU)
 
 # Product
 

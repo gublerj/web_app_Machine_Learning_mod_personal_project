@@ -27,6 +27,8 @@ Started a test server on my local machine by:
 -   Scikit-learn
 -   seaborn
 -   numpy
+
+
 **VScode**
 -   Django framework
 -   Some HTML

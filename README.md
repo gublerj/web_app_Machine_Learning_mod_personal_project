@@ -33,7 +33,7 @@ I wanted to teach myself how to deploy a machine learning model on a web app.
 -   Django framework
 -   Some HTML
 -   Vertual Environment
-  *   (first navigate to the folder you want to work in)
+  *(first navigate to the folder you want to work in)
    * py -m venv env
   * .\env\Scripts\activate
   * python -m pip install Django

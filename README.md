@@ -1,12 +1,5 @@
 
 
-- https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
-
-- https://discuss.analyticsvidhya.com/t/what-is-the-difference-between-predict-and-predict-proba/67376
-
-- https://stackoverflow.com/questions/44345538/how-can-i-pass-multiple-variables-to-my-template-in-django
-
-- https://stats.stackexchange.com/questions/2641/what-is-the-difference-between-likelihood-and-probability
 
 # Overview
 
@@ -26,19 +19,30 @@
 
 # Development Environment
 
+- **Google Colab**
+-   Pandas
+-   Scikit-learn
+-   seaborn
+-   numpy
+-  **VScode**
+-   Django framework
+-   Some HTML
 {Describe the tools that you used to develop the software}
 
 {Describe the programming language that you used and any libraries.}
 
 # Useful Websites
+- [Data from Kaagle](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+- [Statistical meaning of likelyhood](https://stats.stackexchange.com/questions/2641/what-is-the-difference-between-likelihood-and-probability)
+
+- [Statistical meaning of likelyhood](https://discuss.analyticsvidhya.com/t/what-is-the-difference-between-predict-and-predict-proba/67376)
+
+- [Returning multiple Variables](https://stackoverflow.com/questions/44345538/how-can-i-pass-multiple-variables-to-my-template-in-django)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Hyperparameter tuning
+* Hoast on Heroku
+* Clean up the front end and make it look better

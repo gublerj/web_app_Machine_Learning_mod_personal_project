@@ -3,15 +3,16 @@
 
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I wanted to teach myself how to deploy a machine learning model on a web app. 
 
+- python manage.py runserver
+- Go to:  http://127.0.0.1:8000/
 {Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
 
 {Describe your purpose for writing this software.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
+[Software Demo Video](https://youtu.be/JZyoC7ZiUwU)
 
-[Software Demo Video](http://youtube.link.goes.here)
 # Product
 
 **Machine Learning Model**
@@ -22,7 +23,6 @@
 **Web Pages**
 - Home page has a form to fill out
 - The results page is a prediction of the parameters that were input
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 
 # Development Environment
 
@@ -35,6 +35,12 @@
 -   Django framework
 -   Some HTML
 -   Vertual Environment
+  - (first navigate to the folder you want to work in)
+  - py -m venv env
+  - .\env\Scripts\activate
+  - python -m pip install Django
+  - py -m django --version
+
 
 # Useful Websites
 - [Data from Kaagle](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Attack Prediction</title>
+</head>
+<body>
+<h1>Heart Attack Prediction</h1>
+
+    <h3>Enter Patient Vitals</h3>
+
+
+    <form action="{% url 'result' %}" class = 'container'>
+        
+        {% csrf_token %}
+
+        Age: <br> 
+        <input type="text" required name = "age"> <br> <br>
+        
+        Sex: <br>
+        <input type="text" required name = "sex"> <br> <br>
+        
+        Chest Pain type: <br>
+        <input type="text" required name = "cp"> <br> <br>   
+        
+        Resting Blood Pressure <br>
+        (in mm Hg): <br>
+        <input type="text" required name = "trtbps" > <br> <br>
+        
+        Cholestoral <br>
+        (in mg/dl, fetched via BMI sensor): <br>
+        <input type="text" required name = "chol"> <br> <br>
+        
+        Fasting Blood Sugar <br>
+        (fbs > 120 mg/dl = 1, fbs < 120 mg/dl = 0): <br>
+        <input type="text" required name = "fbs"> <br> <br>
+        
+        Resting Electrocardiographic Results: <br>
+        <input type="text" required name = "restecg"> <br> <br>
+        
+        Maximum Heart Rate Achieved: <br>
+        <input type="text" required name = "thalachh"> <br> <br>
+        
+        Exercise Induced Angina? <br>
+         (1 = yes; 0 = no):<br>
+         <input type="text" required name = "exng"> <br> <br>
+        
+         Previous Peak: <br>
+        <input type="text" required name = "oldpeak"> <br> <br>
+        
+        Slope: <br>
+        <input type="text" required name = "slp"> <br> <br>
+        
+        Number of Major Vessels: <br>
+        <input type="text" required name = "caa"> <br> <br>
+        
+        Thal rate: <br>
+        <input type="text" required name = "thall"> <br> <br>
+
+    
+        <input type = "submit" name = "" value = "submit">
+    </form>
+</body>
+</html>
+
+<!-- Data Dict -->
+
+<!-- age - Age
+sex - Sex
+cp - Chest Pain type
+trtbps - Resting Blood Pressure (in mm Hg)
+chol - Cholestoral (in mg/dl, fetched via BMI sensor)
+fbs - Fasting Blood Sugar (fbs > 120 mg/dl = 1, fbs < 120 mg/dl = 0)
+restecg - Resting Electrocardiographic Results
+thalachh - Maximum Heart Rate Achieved
+exng - Exercise Induced Angina? (1 = yes; 0 = no)
+oldpeak - Previous Peak -->
+

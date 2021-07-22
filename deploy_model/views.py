@@ -28,6 +28,7 @@ def result(request):
 
     
     # ans = cls.predict([lis])
+    
     # change the threshold to make a more accurate prediction
     THRESHOLD = 0.04
     ans = np.where(cls.predict_proba([lis])[:,1] > THRESHOLD, 1, 0)

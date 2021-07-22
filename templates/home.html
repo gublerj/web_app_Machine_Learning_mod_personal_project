@@ -17,47 +17,43 @@
         {% csrf_token %}
 
         Age: <br> 
-        <input type="text" required name = "age"> <br> <br>
+        <input type="text" required name = "age" maxlength="35" size="35"> <br> <br>
         
         Sex: <br>
-        <input type="text" required name = "sex"> <br> <br>
+        <input type="text" required name = "sex" maxlength="35" size="35"> <br> <br>
         
         Chest Pain type: <br>
-        <input type="text" required name = "cp"> <br> <br>   
+        <input type="text" required name = "cp" maxlength="35" size="35"> <br> <br>   
         
-        Resting Blood Pressure <br>
-        (in mm Hg): <br>
-        <input type="text" required name = "trtbps" > <br> <br>
+        Resting Blood Pressure: <br>
+        <input type="text" required name = "trtbps" placeholder="(in mm Hg)" maxlength="35" size="35"> <br> <br>
         
-        Cholestoral <br>
-        (in mg/dl, fetched via BMI sensor): <br>
-        <input type="text" required name = "chol"> <br> <br>
+        Cholestoral: <br>
+        <input type="text" required name = "chol" placeholder="(in mg/dl, fetched via BMI sensor)" maxlength="35" size="35"> <br> <br>
         
-        Fasting Blood Sugar <br>
-        (fbs > 120 mg/dl = 1, fbs < 120 mg/dl = 0): <br>
-        <input type="text" required name = "fbs"> <br> <br>
+        Fasting Blood Sugar: <br>
+        <input type="text" required name = "fbs" placeholder="(fbs > 120 mg/dl = 1, fbs < 120 mg/dl = 0)" maxlength="35" size="35"> <br> <br>
         
         Resting Electrocardiographic Results: <br>
-        <input type="text" required name = "restecg"> <br> <br>
+        <input type="text" required name = "restecg" maxlength="35" size="35"> <br> <br>
         
         Maximum Heart Rate Achieved: <br>
-        <input type="text" required name = "thalachh"> <br> <br>
+        <input type="text" required name = "thalachh" maxlength="35" size="35"> <br> <br>
         
-        Exercise Induced Angina? <br>
-         (1 = yes; 0 = no):<br>
-         <input type="text" required name = "exng"> <br> <br>
+        Exercise Induced Angina?: <br>
+         <input type="text" required name = "exng" placeholder="(1 = yes; 0 = no)" maxlength="35" size="35"> <br> <br>
         
-         Previous Peak: <br>
-        <input type="text" required name = "oldpeak"> <br> <br>
+        Previous Peak: <br>
+        <input type="text" required name = "oldpeak" maxlength="35" size="35"> <br> <br>
         
         Slope: <br>
-        <input type="text" required name = "slp"> <br> <br>
+        <input type="text" required name = "slp" maxlength="35" size="35"> <br> <br>
         
         Number of Major Vessels: <br>
-        <input type="text" required name = "caa"> <br> <br>
+        <input type="text" required name = "caa" maxlength="35" size="35"> <br> <br>
         
         Thal rate: <br>
-        <input type="text" required name = "thall"> <br> <br>
+        <input type="text" required name = "thall" maxlength="35" size="35"> <br> <br>
 
     
         <input type = "submit" name = "" value = "submit">
@@ -77,4 +73,4 @@ restecg - Resting Electrocardiographic Results
 thalachh - Maximum Heart Rate Achieved
 exng - Exercise Induced Angina? (1 = yes; 0 = no)
 oldpeak - Previous Peak -->
-
+

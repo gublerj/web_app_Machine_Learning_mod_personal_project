@@ -13,8 +13,14 @@
 
 [Software Demo Video](http://youtube.link.goes.here)
 
-# Web Pages
+# Machine Learning Model
+- Logistic Regression outpreformed the decision tree
+- Changing the threshold to .04 increased recall from 99.3% to 100% (saving 7% more lives)
+- The tradeoff with lowering the threshold is that precision decreased from 75% to 5% (5% more poeple were unnecessarily admitted)
 
+# Web Pages
+- Home page has a form to fill out
+- The results page is a prediction of the parameters that were input
 {Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 
 # Development Environment
@@ -27,9 +33,7 @@
 -  **VScode**
 -   Django framework
 -   Some HTML
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+-   Vertual Environment
 
 # Useful Websites
 - [Data from Kaagle](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
